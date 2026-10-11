@@ -6,11 +6,11 @@ Record for EVERY included item:
 - author; exact work/sermon title; passage covered; publication date if verifiable
 - editor/translator and edition for a historical work when relevant
 - original canonical URL or bibliographic citation, not merely a search excerpt
-- content status: full manuscript read / relevant section read / audio listened / metadata only
+- content status: full manuscript read / relevant section read / official outline read / audio/video actually inspected / metadata only / unverified third-party transcript
 - relation to text: EXACT PASSAGE / SURROUNDING PASSAGE / THEMATIC SUPPORT
 - permission status: PUBLIC DOMAIN (verified edition/jurisdiction), EXPLICIT LICENSE, COPYRIGHTED, USER-SUPPLIED/OWNED (rights must still be respected), or UNKNOWN
 
-Never turn metadata-only access into a claimed manuscript analysis. If no full text or audio is available, offer source link with "outline not possible from metadata" instead of inventing a map.
+Never turn metadata-only access into a claimed manuscript analysis. Publisher-provided sermon outlines are not full transcripts and do not by themselves support claims about anecdotes, gestures or transitions that aren't written there. If no full text or audio is available, offer source link with "outline not possible from metadata" instead of inventing a map.
 
 ## 2. Theological/source fit
 
@@ -37,8 +37,8 @@ Never assume a broader theological system, denominational position, or all-time 
 ## 4. Distinctive sermons, anecdotes, and illustrations
 
 For every example in a sermon map:
-- Quote or paraphrase only what can be verified in the official transcript or media.
-- Give a location (heading, time, or rough position) when verifiable.
+- Quote or paraphrase only what can be verified in the official transcript or inspected media. Independently produced automated transcripts are leads only until checked against original recordings.
+- Give a location (real heading, verified timestamp, or rough opening/middle/conclusion) when verifiable. Numerical timestamps are optional; never estimate precise minutes from word counts or assume player deep linking.
 - Label the kind: PERSONAL STORY, HISTORICAL EVENT, BIBLICAL EXAMPLE, EVERYDAY ANALOGY, HYPOTHETICAL, PUBLIC CLAIM.
 - Record its function in the manuscript (hook, tension, proof, bridge, application, closing image).
 - Note how the speaker returns to the biblical text, if actually shown.
