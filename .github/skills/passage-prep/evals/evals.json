@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "goal": "Evaluate Part 1 commentary excerpts and Part 2 actual sermon maps as a source-first, mark-up-friendly workflow",
   "cases": [
     {
@@ -84,6 +84,54 @@
         "Does not misrepresent a commissioned sermon as sourced commentary",
         "Does not activate the source-collection skill in place of a sermon-writing request",
         "Does not present invented quotations from named pastors"
+      ]
+    },
+    {
+      "id": "lakepointe-video-only",
+      "prompt": "Run Passage Prep on Psalm 23 using Josh Howerton, John Piper and Timothy Keller. Do not waste resources deriving video timestamps.",
+      "expected": "Lakepointe direct-site search, honest differences in manuscript accessibility; no fabricated video-only structure",
+      "assertions": [
+        "Checks lakepointe.church/messages first for Josh Howerton rather than sweeping generic web",
+        "Confirms the speaker is Josh Howerton, not a different Lakepointe team member",
+        "If no real transcript or inspected media, does not fabricate full movements or an illustration",
+        "No unverified minute/second timestamp or constructed deep link",
+        "Keller is searched at gospelinlife.com/sermons; recording-only availability is identified"
+      ]
+    },
+    {
+      "id": "modern-video-poor-transcript",
+      "prompt": "Run Passage Prep for Acts 2:1–13 with Philip Anthony Mitchell, Jim Cymbala, Derwin Gray and Francis Chan. Use only solid source evidence; timestamps optional.",
+      "expected": "Routes to 2819 official media, Brooklyn Tabernacle media, Transformation Church sermon outlines and Crazy Love; honors video-only limitations",
+      "assertions": [
+        "Visits direct archives named for all four speakers before any broad discovery",
+        "Distinguishes official published outlines from full transcripts and third-party transcription",
+        "Marks any unsupported sermon-map stage or personal anecdote as unavailable",
+        "Does not misattribute guest speakers to user-selected pastors",
+        "Omission of unverified timestamps is treated as correct behavior"
+      ]
+    },
+    {
+      "id": "historical-murray-mcheyne",
+      "prompt": "Find Commentary Reading Room sources for Matthew 6:9–13 from Andrew Murray, Matthew Henry, Thomas Watson and Robert Murray M’Cheyne; exact source words where lawful.",
+      "expected": "Finds relevant verified public-domain material without disguising theme-only devotional text as verse-by-verse commentary",
+      "assertions": [
+        "Andrew Murray passages are confirmed in an actual book rather than made up",
+        "Matthew Henry is routed to CCEL full commentary first",
+        "M’Cheyne is identified as Robert Murray M’Cheyne, not a modern missionary named McKinney",
+        "Specific historic editions/copyright status are identified before reproducing long text",
+        "Part 1 allows user annotation and visible attribution"
+      ]
+    },
+    {
+      "id": "stott-logos-and-timestamps",
+      "prompt": "Run Passage Prep for Matthew 5:4 with John Stott and Tim Keller. Include verified timestamps only if already available, and use my Logos only if accessible.",
+      "expected": "Text scarcity acknowledged, licensed Logos transcripts not assumed accessible, timestamps not fabricated",
+      "assertions": [
+        "John Stott official sermons are searched via johnstott.org",
+        "Logos Sermon Archive is described as licensed with transcripts, not free public-domain",
+        "Gospel in Life uses official Scripture filtering",
+        "Timestamps included only when independently verified in exact recording",
+        "Reader can still be completed with links when full transcripts are inaccessible"
       ]
     }
   ]
