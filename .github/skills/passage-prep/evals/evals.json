@@ -81,7 +81,9 @@
       "expected": "Passage Prep does not override an explicitly requested sermon-writing workflow",
       "assertions": [
         "No unsolicited two-part reading packet",
-        "Does not misrepresent a commissioned sermon as sourced commentary"
+        "Does not misrepresent a commissioned sermon as sourced commentary",
+        "Does not activate the source-collection skill in place of a sermon-writing request",
+        "Does not present invented quotations from named pastors"
       ]
     }
   ]
