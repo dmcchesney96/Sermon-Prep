@@ -1,0 +1,261 @@
+{
+  "version": "0.2.0",
+  "lastVerified": "2026-10-11",
+  "defaultTimestamps": "off-unless-checked-in-exact-recording",
+  "defaultApproach": "official-first-targeted",
+  "sources": [
+    {
+      "id": "john-piper",
+      "name": "John Piper",
+      "type": "sermon",
+      "official": [
+        "https://www.desiringgod.org/messages",
+        "https://www.desiringgod.org/scripture/john/messages"
+      ],
+      "availability": [
+        "text",
+        "audio",
+        "video"
+      ],
+      "textConfidence": "high",
+      "route": "scripture-index",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "david-platt",
+      "name": "David Platt",
+      "type": "sermon",
+      "official": [
+        "https://radical.net/message/",
+        "https://radical.net/podcasts/radical-podcast/"
+      ],
+      "availability": [
+        "text",
+        "audio",
+        "video",
+        "notes"
+      ],
+      "textConfidence": "high-many-not-all",
+      "route": "domain-passage-search",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "josh-howerton",
+      "name": "Josh Howerton",
+      "type": "sermon",
+      "official": [
+        "https://lakepointe.church/messages/",
+        "https://lakepointe.church/digital/"
+      ],
+      "availability": [
+        "audio",
+        "video"
+      ],
+      "textConfidence": "not-consistently-confirmed",
+      "route": "embedded-message-library",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "derwin-gray",
+      "name": "Derwin Gray",
+      "type": "sermon",
+      "official": [
+        "https://transformationchurch.tc/sermons/"
+      ],
+      "availability": [
+        "outline",
+        "audio",
+        "video",
+        "conversation-guide"
+      ],
+      "textConfidence": "outline-not-manuscript",
+      "route": "church-sermon-index",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "philip-anthony-mitchell",
+      "name": "Philip Anthony Mitchell",
+      "type": "sermon",
+      "official": [
+        "https://2819church.org/",
+        "https://podcasts.apple.com/us/podcast/2819-church/id1788235375"
+      ],
+      "thirdParty": [
+        "https://2819vault.com/",
+        "https://www.tapesearch.com/podcast/2819-church/1788235375"
+      ],
+      "availability": [
+        "audio",
+        "video",
+        "third-party-transcript"
+      ],
+      "textConfidence": "not-consistently-confirmed",
+      "route": "official-video-podcast",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "francis-chan",
+      "name": "Francis Chan",
+      "type": "sermon",
+      "official": [
+        "https://www.crazylove.org/messages"
+      ],
+      "thirdParty": [
+        "https://www.greatchurchtools.com/sermons/pastor/8/pastor-francis-chan"
+      ],
+      "availability": [
+        "audio",
+        "video",
+        "third-party-transcript"
+      ],
+      "textConfidence": "not-consistently-confirmed",
+      "route": "official-scripture-filter",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "timothy-keller",
+      "name": "Timothy Keller",
+      "type": "sermon",
+      "official": [
+        "https://gospelinlife.com/sermons/"
+      ],
+      "availability": [
+        "audio",
+        "notes"
+      ],
+      "textConfidence": "not-universal",
+      "route": "official-scripture-filter",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "jim-cymbala",
+      "name": "Jim Cymbala",
+      "type": "sermon",
+      "official": [
+        "https://media.brooklyntabernacle.org/sunday_media",
+        "https://media.brooklyntabernacle.org/audio_media",
+        "https://www.brooklyntabernacle.org/blog/"
+      ],
+      "availability": [
+        "audio",
+        "video",
+        "articles"
+      ],
+      "textConfidence": "not-consistently-confirmed",
+      "route": "official-media-search",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "john-stott",
+      "name": "John Stott",
+      "type": "sermon-commentary",
+      "official": [
+        "https://johnstott.org/all-work/sermons/"
+      ],
+      "licensed": [
+        "https://faithlife.com/store/product/198303/john-stott-sermon-archive"
+      ],
+      "availability": [
+        "audio",
+        "video",
+        "licensed-logos-transcripts"
+      ],
+      "textConfidence": "public-limited-logos-licensed",
+      "route": "official-archive",
+      "rights": "copyrighted"
+    },
+    {
+      "id": "charles-spurgeon",
+      "name": "Charles Spurgeon",
+      "type": "sermon-commentary",
+      "official": [
+        "https://www.spurgeon.org/resource-library/"
+      ],
+      "availability": [
+        "historic-text"
+      ],
+      "textConfidence": "high",
+      "route": "resource-library-search",
+      "rights": "historic-original-public-domain"
+    },
+    {
+      "id": "robert-murray-mcheyne",
+      "name": "Robert Murray M’Cheyne",
+      "type": "sermon-commentary",
+      "official": [
+        "https://archive.org/details/sermonsofrevrobe00mche"
+      ],
+      "availability": [
+        "scan",
+        "historic-text-variable"
+      ],
+      "textConfidence": "variable-ocr",
+      "route": "historic-book-index",
+      "rights": "historic-original-public-domain"
+    },
+    {
+      "id": "thomas-watson",
+      "name": "Thomas Watson",
+      "type": "commentary",
+      "official": [
+        "https://www.ccel.org/ccel/watson/beatitudes.viii.html",
+        "https://www.ccel.org/ccel/watson/beatitudes.xiii.html"
+      ],
+      "availability": [
+        "historic-text"
+      ],
+      "textConfidence": "high-for-beatitudes",
+      "route": "book-chapter",
+      "rights": "historic-original-public-domain"
+    },
+    {
+      "id": "matthew-henry",
+      "name": "Matthew Henry",
+      "type": "commentary",
+      "official": [
+        "https://ccel.org/ccel/henry/mhc",
+        "https://www.ccel.org/ccel/henry/mhc5.html"
+      ],
+      "availability": [
+        "historic-text"
+      ],
+      "textConfidence": "high",
+      "route": "book-chapter",
+      "rights": "historic-original-public-domain"
+    },
+    {
+      "id": "andrew-murray",
+      "name": "Andrew Murray",
+      "type": "devotional-commentary",
+      "official": [
+        "https://www.gutenberg.org/ebooks/12854",
+        "https://www.gutenberg.org/ebooks/26003",
+        "https://www.gutenberg.org/ebooks/19572"
+      ],
+      "availability": [
+        "historic-text"
+      ],
+      "textConfidence": "high-for-books-not-verse-indexed",
+      "route": "title-and-fulltext-passage-match",
+      "rights": "public-domain-usa-verified-editions"
+    },
+    {
+      "id": "gospel-coalition",
+      "name": "The Gospel Coalition",
+      "type": "multi-author-sermon-network",
+      "official": [
+        "https://www.thegospelcoalition.org/sermons/",
+        "https://www.thegospelcoalition.org/the-carson-center/sermons/"
+      ],
+      "availability": [
+        "index",
+        "audio",
+        "video",
+        "text-varies"
+      ],
+      "textConfidence": "varies",
+      "route": "scripture-speaker-filter",
+      "rights": "copyrighted-multi-author"
+    }
+  ]
+}
