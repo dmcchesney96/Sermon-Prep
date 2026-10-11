@@ -14,7 +14,8 @@ Both parts should make it **easier for the preacher to do their own reading and 
 
 - .github/skills/passage-prep/SKILL.md — installation-friendly, triggerable skill
 - .github/skills/passage-prep/references/source-policy.md — trust/copyright/verification
-- .github/skills/passage-prep/references/source-lists.md — editable author and pastor rosters
+- .github/skills/passage-prep/references/source-lists.md — editable approved author and pastor rosters
+- .github/skills/passage-prep/references/archive-directory.md — verified archive URL registry, access types and timestamp safeguards
 - .github/skills/passage-prep/references/output-format.md — two-part reading reader and markup conventions
 - .github/skills/passage-prep/assets/reader-template.md — study document layout
 - .github/skills/passage-prep/evals/evals.json — five realistic evaluation scenarios
@@ -41,4 +42,4 @@ Skills-compatible clients typically discover skills from the .github/skills loca
 - Keep an independent record of sources, dates, permission status, and what was actually examined.
 - No automatic publishing or overwriting another document without a clear request.
 
-Status: v0.1 initial design, to be refined with more user-approved writers and real evaluation runs. 
+Status: v0.2. The approved source list was expanded by user request on October 11, 2026. A dedicated [archive directory](.github/skills/passage-prep/references/archive-directory.md) records exact starting URLs, text availability, and targeted search routes for Josh Howerton, Piper, Platt, Keller, Chan, Gray, Philip Anthony Mitchell, Jim Cymbala, Stott, Spurgeon, M’Cheyne, and historical commentary authors. Timestamps are optional and must be verified. Full end-to-end evaluations remain to be run. 
