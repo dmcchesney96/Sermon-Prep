@@ -22,7 +22,7 @@ Do not activate for an ordinary request to write a complete sermon, a general th
 ## Required setup
 
 1. Read references/source-lists.md for the explicitly selected authors/preachers. Only call writers "approved/trusted" if explicitly approved; other candidates must be marked candidates.
-2. Read references/archive-directory.md for verified source URLs, access types and low-cost direct-site discovery. Do **not** sweep the entire web for known preachers on every run. Then read references/source-policy.md before retrieval and quotation.
+2. Read references/archive-index.json for stable primary/archive URLs and capability flags, then references/archive-directory.md for verification caveats, access types and low-cost direct-site discovery. Do **not** sweep the entire web for known preachers on every run. Then read references/source-policy.md before retrieval and quotation.
 3. Read references/output-format.md when producing the reader.
 4. Use assets/reader-template.md for the document layout.
 
