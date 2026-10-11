@@ -11,6 +11,16 @@ Purpose: ensure this skill curates sources and exposes genuine sermon craft, wit
 5. When an assertion fails, propose a change in SKILL.md, sources, or output-format. Keep the input and output as a regression example.
 6. For the Matthew 5:4 pilot, explicitly compare John Piper's February 2, 1986 sermon (direct exposition of 5:3–4) with David Platt's “The Good Life Redefined” (the 5:4 teaching occurs in a recap of a sermon mainly on 5:7–12). The map must NOT turn Platt's recap into a dedicated 5:4 sermon.
 
+## New archive-routing checks (v0.2)
+
+- For Josh Howerton, check Lakepointe messages/podcast before any broad web search. Treat spoken.md as independent, possibly metered transcription—not official evidence.
+- For Derwin Gray, distinguish Transformation Church's official sermon outline from a complete recorded transcript.
+- For Philip Anthony Mitchell and Jim Cymbala, an audio/video listing alone is not proof of a full manuscript. Give media links without inventing precise illustrations, timing or vocal delivery.
+- For Tim Keller, use Gospel in Life's Scripture filter; do not assume all entries have text transcripts.
+- For John Stott, note the extensive Logos sermon archive is licensed, not an openly reproducible transcript collection.
+- For Andrew Murray, distinguish real treatment of the passage from a devotional thematic overlap.
+- Timestamps should be omitted gracefully unless independently checked in the exact recording. Their absence is never a failure.
+
 ## Check categories
 
 - **Trigger:** activates on research and reading packet requests; NOT on pure sermon writing or unrelated ministry admin.
