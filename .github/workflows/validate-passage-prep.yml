@@ -1,0 +1,25 @@
+name: Validate Passage Prep
+on:
+  push:
+    paths:
+      - ".github/skills/passage-prep/**"
+      - ".github/workflows/validate-passage-prep.yml"
+  pull_request:
+    paths:
+      - ".github/skills/passage-prep/**"
+      - ".github/workflows/validate-passage-prep.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate reusable skill package
+        run: python .github/skills/passage-prep/scripts/validate_skill.py
