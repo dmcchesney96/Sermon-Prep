@@ -26,7 +26,7 @@ Preferred mix: 4–8 distinct relevant commentaries. Mark only the very stronges
 Each selected full sermon gets a source card and a flow map:
 
 **PASTOR | Full sermon title | Main passage | Date**
-- Exact-passage label; verified official link; link to transcript and media if available.
+- Exact-passage label; verified official link; link to transcript and media if available; **content status: full manuscript / publisher outline / verified audio-video / metadata only / independent unverified transcript**.
 - **One-line central rhetorical movement** (not a proposed user sermon main idea).
 - **Sermon map** of 4–8 movements, in the preacher's actual order. Each move: textual anchor, *what the speaker does*, and actual transition where verifiable.
 - **Illustrations/examples used in THIS sermon**, shown as separate inset lines or table rows:
@@ -35,11 +35,11 @@ Each selected full sermon gets a source card and a flow map:
   - Placement: opening/middle/conclusion or verified subheading/timestamp.
   - Purpose: what the illustration makes tangible.
   - Link back to biblical text: speaker's actual bridge, if present.
-- **Landing:** how they concluded and invited response.
+- **Landing:** how they concluded and invited response. Never describe vocal intensity, a pause, or emotional delivery if only written material was read.
 - **Communication moves to notice:** no more than 3 concise observations; not a new outline imposed on user.
 - **Reading/margin prompts:** What did the author see in the passage? Which moves would fit my congregation? Is this illustration verifiable / uniquely theirs?
 
-2–5 genuinely read sermons. If the pastor has only mentioned the verse in a broader message, classify "partial reference", and give a very short source note; don't fabricate 4–8 movements about the requested passage.
+2–5 genuinely read sermons, or fewer if sources are scarce. If the pastor has only mentioned the verse in a broader message, classify "partial reference", and give a very short source note; don't fabricate 4–8 movements about the requested passage. If only video/audio is available but wasn't actually examined, provide the direct watch/listen link rather than a fake sermon map.
 
 **Optional closing comparison:** less than one page comparing each preacher's opening, structural logic, illustrations, biblical argument, and landing.
 
@@ -50,7 +50,7 @@ Each selected full sermon gets a source card and a flow map:
 - Use named heading styles. Start commentary and sermon parts on separate pages when page-break support is reliable.
 - Yellow highlight is for authentic source wording or especially valuable identified structural moves. Never highlight full pages.
 - Visually label SOURCE TEXT, EDITOR NOTE, and READING QUESTION (don't merge them).
-- Make all links clickable. Give each author/book/sermon its own discrete block.
+- Make all links clickable. Give each author/book/sermon its own discrete block. Only add timestamp deep links when that exact recording position was checked; never guess seconds from transcripts that are not time-aligned.
 - Note "complete original accessible by link" when a source cannot be reproduced.
 - Don't create an unwieldy contents section larger than the notes it indexes.
 - Do not add an AI-written sermon outline by default.
