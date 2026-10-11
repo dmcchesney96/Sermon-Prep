@@ -27,6 +27,8 @@ check("Skill body under 500 lines", len(skill.splitlines()) < 500)
 
 refs = [
     "references/source-lists.md",
+    "references/archive-directory.md",
+    "references/archive-index.json",
     "references/source-policy.md",
     "references/output-format.md",
     "assets/reader-template.md",
@@ -50,6 +52,14 @@ check("Copyright boundary preserved",
 check("Verified illustrations required",
       "never invent what a preacher said" in skill)
 
+archive = json.loads((SKILL_DIR / "references/archive-index.json").read_text(encoding="utf-8"))
+sources = archive.get("sources", [])
+check("Curated source registry includes 15 routes", len(sources) >= 15)
+check("Every archive has at least one full official URL",
+      all(s.get("official") and all(u.startswith("https://") for u in s["official"]) for s in sources))
+check("Distinct source IDs", len({s.get("id") for s in sources}) == len(sources))
+check("No automatic unverified timestamps",
+      archive.get("defaultTimestamps") == "off-unless-checked-in-exact-recording")
 tests = json.loads((SKILL_DIR / "evals/evals.json").read_text(encoding="utf-8"))
 cases = tests.get("cases", [])
 check("Seven or more evaluation cases", len(cases) >= 7)
