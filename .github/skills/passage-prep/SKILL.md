@@ -31,7 +31,7 @@ If the passage is known, proceed without asking for more preferences. Default to
 ## Operating rules
 
 - Scripture first. Identify exact passage, literary unit, speaker, and key adjacent verses; note context succinctly, without pre-answering the preacher's exegesis.
-- **Two parts in this order, clearly separated**: (1) Commentary Reading Room, (2) Sermon Workshop.
+- **Default to two parts in this order, clearly separated**: (1) Commentary Reading Room, (2) Sermon Workshop. If the user expressly requests only one part, produce only that part.
 - Within each part prioritize **the source's own material** over the assistant's opinions. Short annotation only: why to read; not what to preach.
 - Search beyond exact verse number when appropriate, but mark each result as EXACT PASSAGE, SURROUNDING PASSAGE, or THEMATIC SUPPORT; do not imply that a tangential source directly preached the text.
 - Report an honest source count and missing sources. Do not promise full transcripts or pages not verified.
@@ -72,7 +72,7 @@ If the passage is known, proceed without asking for more preferences. Default to
 8. Leave markup prompts: "What did I see in the text?" and "Would this move serve my passage and congregation?"
 
 ### Finalization
-- Produce **one two-part reader** with outline/navigation and original-source links, as defined in references/output-format.md. Google Doc is ideal when user wants iPad reading; ensure editability.
+- Produce **one two-part reader by default** with outline/navigation and original-source links, as defined in references/output-format.md. Honor explicit requests for commentary-only or sermon-only. Google Doc is ideal when user wants iPad reading; ensure editability.
 - Highlight only sentences of unusual textual clarity, pastoral value, or communicative ingenuity, with visible source distinctions.
 - Audit quotation lengths, provenance, exact-passage classification, correct transcript attribution, and absence of a generated sermon.
 - Give a short completion note with document location, included sources, unavailable sources, and reading instructions.
