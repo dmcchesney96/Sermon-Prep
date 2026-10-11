@@ -15,7 +15,8 @@ Both parts should make it **easier for the preacher to do their own reading and 
 - .github/skills/passage-prep/SKILL.md — installation-friendly, triggerable skill
 - .github/skills/passage-prep/references/source-policy.md — trust/copyright/verification
 - .github/skills/passage-prep/references/source-lists.md — editable approved author and pastor rosters
-- .github/skills/passage-prep/references/archive-directory.md — verified archive URL registry, access types and timestamp safeguards
+- .github/skills/passage-prep/references/archive-directory.md — verified archive URLs, access types and timestamp safeguards
+- .github/skills/passage-prep/references/archive-index.json — machine-readable index of 15 direct sources and access conditions
 - .github/skills/passage-prep/references/output-format.md — two-part reading reader and markup conventions
 - .github/skills/passage-prep/assets/reader-template.md — study document layout
 - .github/skills/passage-prep/evals/evals.json — five realistic evaluation scenarios
