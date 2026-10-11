@@ -1,0 +1,88 @@
+{
+  "version": "0.1.0",
+  "goal": "Evaluate Part 1 commentary excerpts and Part 2 actual sermon maps as a source-first, mark-up-friendly workflow",
+  "cases": [
+    {
+      "id": "mt5-4-verified",
+      "prompt": "Run Passage Prep for Matthew 5:4 using John Piper and David Platt on my pastor list. Make a Google Doc for iPad reading, without writing my sermon.",
+      "expected": "Two-part reader including lawfully reproduced historical sources plus verified sermons; Piper 1986 direct passage; Platt 2024 clearly only recaps verse 4",
+      "assertions": [
+        "Two main parts in commentary-then-sermon order",
+        "Commentary highlights occur in verified original wording and are legally reusable",
+        "Piper 1986 identified as Matthew 5:3–4 sermon and its student/crutch illustration accurately classified",
+        "Platt The Good Life Redefined is labeled Matthew 5:7–12 sermon with brief 5:4 recap, not direct 5:4 sermon",
+        "Full sermon flow tied to transcript sections, including placement/function of actual illustrations",
+        "No final AI sermon manuscript or imposed preaching points"
+      ]
+    },
+    {
+      "id": "john11-pastoral",
+      "prompt": "Passage Prep John 11:17–44 for pastoral sermon prep; preserve actual commentary text and show the flow in trusted sermons.",
+      "expected": "Grief sensitive, source grounded reader; no claim that specific bereavements are punishments for sin",
+      "assertions": [
+        "John 11 interpreted in narrative context and linked to Jesus' tears",
+        "Commentary viewpoints kept attributable with legal excerpts",
+        "Only genuine John 11 messages get full sermon maps",
+        "No conflation of grief with personal culpability",
+        "Reader has annotation space and sources linked"
+      ]
+    },
+    {
+      "id": "1sam18-narrative",
+      "prompt": "Passage Prep 1 Samuel 18:1–16. Keep narrative sequence clear, do not preach it for me.",
+      "expected": "Narrative-aware commentary and source-verified sermon maps; show honest gaps",
+      "assertions": [
+        "Part 1 preserves sequential narrative movements and distinguishes author interpretation",
+        "No story illustration made up to fill sermon-flow gaps",
+        "Adjacent Jonathan/David sermon correctly labeled SURROUNDING if not exact",
+        "Modern copyrighted commentary not pasted in full",
+        "No generated sermon outline presented as the user's final outline"
+      ]
+    },
+    {
+      "id": "rare-reference",
+      "prompt": "Passage Prep on 3 John 1:13–15. Search the two approved pastors, John Piper and David Platt, only.",
+      "expected": "Accurate scarcity reporting; no false direct-text sermons",
+      "assertions": [
+        "Only Piper and Platt searched as approved roster",
+        "No unrelated topical sermons claimed to be exact passage exposition",
+        "Unavailable sermon coverage reported honestly",
+        "Part 1 prioritizes relevant reliable commentary, even if few sources",
+        "Clear original manuscript vs metadata-only distinction"
+      ]
+    },
+    {
+      "id": "licensed-export",
+      "prompt": "Passage Prep for Romans 8:18–30. I supplied a modern copyrighted Logos commentary excerpt; integrate it into my personal reader and find Piper/Platt sermons.",
+      "expected": "Respect license restrictions while offering useful user-readable source pointers and reader notes",
+      "assertions": [
+        "Modern commentary permissions assessed rather than presumed",
+        "Any copyrighted verbatim external quotations are short and attributed",
+        "User-supplied material treated as personal-study content, not published to a public repo",
+        "Source notes explain exactly what is accessible",
+        "Sermon illustrations cite original manuscripts and are classified"
+      ]
+    },
+    {
+      "id": "commentary-only",
+      "prompt": "Passage Prep for Luke 15:11–32, just the commentary reading section. No sermon research this time.",
+      "expected": "User's explicit one-part override takes precedence",
+      "assertions": [
+        "Only Part 1 generated, without redundant sermon-section filler",
+        "Commentary texts in own words only if legally permissible",
+        "Highlights sparse and anchored",
+        "No assistant-proposed sermon or interpretation",
+        "Reader usable to annotate"
+      ]
+    },
+    {
+      "id": "non-trigger",
+      "prompt": "Write a polished 30-minute sermon manuscript on Matthew 5:4 using my outline.",
+      "expected": "Passage Prep does not override an explicitly requested sermon-writing workflow",
+      "assertions": [
+        "No unsolicited two-part reading packet",
+        "Does not misrepresent a commissioned sermon as sourced commentary"
+      ]
+    }
+  ]
+}
