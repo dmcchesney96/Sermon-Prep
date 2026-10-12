@@ -1,8 +1,8 @@
 ---
 name: passage-prep
-description: "Use for Bible passage sermon preparation to build a substantial self-contained, searchable PDF study anthology: include full relevant historic/public-domain or licensed commentary and sermon text when reuse rights permit, plus original transcript-grounded sermon analysis of copyrighted modern sermons, with a clickable table of contents and PDF bookmarks. Preserve the preacher’s own study and interpretation; do not ghostwrite a sermon."
+description: "Use for Bible passage sermon preparation to build a substantial self-contained, searchable PDF study anthology: include full relevant historic/public-domain or licensed commentary and sermon text when reuse rights permit, plus original transcript-grounded sermon analysis of copyrighted modern sermons, with a clickable table of contents, PDF bookmarks, and source-anchored editorial highlighting visible inside the original text. Preserve the preacher’s own study and interpretation; do not ghostwrite a sermon."
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
   owner: "Sermon-Prep"
 ---
 
@@ -45,6 +45,17 @@ If the passage is known, proceed without asking for more preferences. Default to
 - Mark all claims of "original words" as either true quotation with citation or clearly paraphrased summary.
 - Never move/overwrite existing files or publish study material into public repos without a user-directed scope and provenance check.
 
+## REQUIRED: Editor-selected highlights in the original PDF
+
+**Every Passage Prep PDF must contain actual in-place highlights** on key passages. The task is to decide which lines repay the preacher's closest attention, not simply to recommend lines the reader might highlight later.
+
+1. **Read before marking.** After studying each complete commentary/sermon, select particularly valuable *verified original spans*: unusually clear textual observations, explanations of difficult words or narrative flow, useful theological insights or disagreements, Christ/gospel connections, careful pastoral distinctions, and especially illuminating illustrations or transitions. A highlight is a study invitation, not an approved doctrinal verdict or an AI-drafted sermon point.
+2. **Prioritize sparingly.** Aim for 1–3 short highlights per brief item; roughly 3–8 per long chapter or historical sermon when the text warrants it. Do not mechanically highlight every page. Keep less than ~10% of the original text highlighted, avoid whole paragraphs, and vary emphasis by relevance.
+3. **Render in place.** Select the *exact verified words* from the reproduced, legally usable source. Apply pale-yellow **native PDF highlight annotations** directly to those words on the original reading pages (preferred, editable in common PDF readers); if native highlights cannot be reliably applied, a subtle behind-text yellow fill is an explicitly documented fallback. Preserve selectable/searchable text, legibility and source attribution. Highlighting only an editorial overview, a detached quotation list or a “read and highlight” note is a FAIL.
+4. **Keep editorial thinking identifiable.** Optional one-sentence “EDITOR — Why I highlighted this” notes may flag a disputed interpretation or textual question but must not overwrite or disguise the author's original text. When a modern source is copyrighted without permission to embed it, highlight only lawfully brief quotations **or explicitly labeled original EDITOR ANALYSIS**. Do not reconstruct modern full transcripts to provide highlighting.
+5. **Skim trail (optional).** For a giant PDF, supply a concise "Highlights worth examining" study trail near the table of contents: about 8–15 especially useful observations with clickable PDF page jumps to the *actual source highlight*, labeled editorial rather than definitive. Do not let the index replace in-place highlights.
+6. **Visual acceptance test.** Inspect the rendered PDF near its beginning, middle and end; check real in-text highlights on several different author pages, alignment, text selection/search, moderation of highlight density and distinction between source and editorial material. If no source prose was actually marked, the PDF is incomplete.
+
 ## Workflow
 
 ### Step 0 — Text and scope, briefly
@@ -57,7 +68,7 @@ If the passage is known, proceed without asking for more preferences. Default to
 2. Select a manageable **4–8 excellent sources** (fewer if coverage is thin). Mix historical/public-domain and contemporary/modern scholarship when useful. Avoid repeating near-identical arguments.
 3. For each: bibliographic identification, theological or interpretive angle, exact location, edition/license status, verified original URL, coverage label, and a 1–2 sentence "why this matters for reading."
 4. Show **the writer's real words**: public-domain/licensed relevant passages can be longer and markable; modern copyrighted works get only short attributed quotes within permission limits, plus links and passage/page pointers.
-5. Highlight a **small number** of particularly strong sentences *inside actual allowable source text*, not whole pages. Clearly label assistant highlighting and annotations. Do not bold entire paragraphs.
+5. Perform the REQUIRED editor-selected highlight pass *directly on valuable words in the original reproduced material of the finished PDF*; verify exact wording, keep marks sparse and include different interpretive angles. Do not substitute advice to highlight later.
 6. Where readings differ, offer a compact "differences to investigate" index pointing back to the sources, not a resolved conclusion.
 7. Leave a "My observations / Questions / Return to the text" area for each source.
 
@@ -73,7 +84,7 @@ If the passage is known, proceed without asking for more preferences. Default to
 
 ### Finalization
 - Produce a **downloadable self-contained PDF by default**, containing exactly two main parts in order (Commentary Reading Room, Sermon Workshop), with a clickable table of contents, working PDF sidebar bookmarks, selectable searchable text, and verified page navigation. For multiple passages create separate PDFs unless the user requests a combined volume. A Google Doc is optional as an editable *source*, but it is not a substitute for the finished PDF. Honor explicit commentary-only or sermon-only requests.
-- Highlight only sentences of unusual textual clarity, pastoral value, or communicative ingenuity, with visible source distinctions.
+- Inspect and verify actual pale-yellow highlights directly on high-value source wording within the exported PDF, with modern-source commentary clearly distinguished from original quotes.
 - Audit quotation lengths, provenance, exact-passage classification, correct transcript attribution, and absence of a generated sermon.
 - Give a short completion note with document location, included sources, unavailable sources, and reading instructions.
 - When sources are inadequate, give an honest smaller reader rather than filling the gap with fabricated or tangential material.
@@ -96,7 +107,7 @@ Research supports the preacher's wrestle → consult → compare → return to S
 3. **Copyright boundary:** For modern copyrighted commentaries/sermons without reuse rights, never insert a full manuscript/transcript, extended stitched paraphrase that acts as a substitute, or copied chapters. Instead provide a substantial, original, specific and manuscript-verified communication/exegetical analysis with short legally permissible source excerpts and full citation. Make the absence of full underlying text prominent rather than hiding it.
 4. **Structure:** Passage cover, reading guide, concise contextual questions; main Part 1 (COMMENTARY READING ROOM, with embedded originals and editor's marginal prompts); main Part 2 (SERMON WORKSHOP, with full historical original sermons where legally allowed, and genuine sermon-flow/illustration analyses for modern sources). Preserve the two-part order for EACH passage. Do not ghostwrite the user's sermon.
 5. **Usability:** A meaningful PDF of potentially dozens or hundreds of pages, not a short link roundup. Create a clickable table of contents with correct *actual* page destinations and an outline/bookmark hierarchy down to author/source level. Add running page numbers, short running heading, searchable text, generous reading typography, occasional real highlights, and space for notes. For a long PDF, add "back to contents" links. Avoid decorative filler/blank pages just to inflate page count.
-6. **QA:** Open the finished PDF and verify page count, text searchability, TOC destinations, bookmark tree, source coverage, attribution, license labeling, and page rendering; sample beginning/middle/end and at least two internal links. If source acquisition is blocked or publication rights cannot be confirmed, label omitted material explicitly. Do not call a PDF "complete" if copyrighted primary texts are not included.
+6. **QA:** Open the finished PDF and verify page count, text searchability, TOC destinations, bookmark tree, source coverage, attribution, license labeling, and page rendering; sample beginning/middle/end, at least two internal links, **and multiple genuine in-source phrase highlights** across separate chapters. If source acquisition is blocked or publication rights cannot be confirmed, label omitted material explicitly. Do not call a PDF "complete" if copyrighted primary texts are not included.
 7. **Delivery:** Attach/link the actual downloadable PDF in the chat. If useful, optionally also save or share an editable Google Doc, but the PDF is the primary artifact. Do not default to sending users to websites to read material that could lawfully have been embedded.
 
-**Acceptance tests:** (a) At least one full public-domain commentary chapter is embedded when available; (b) one lawfully reproducible historical sermon appears in full when available; (c) modern copyrighted sermons are clear detailed *analysis only*; (d) table-of-contents clicks open correct source pages; (e) PDF bookmarks work; (f) the PDF is text-selectable, with no clipped text; (g) manuscript/illustration provenance is explicit; (h) no user's sermon is generated.
+**Acceptance tests:** (a) At least one full public-domain commentary chapter is embedded when available; (b) one lawfully reproducible historical sermon appears in full when available; (c) modern copyrighted sermons are clear detailed *analysis only*; (d) table-of-contents clicks open correct source pages; (e) PDF bookmarks work; (f) the PDF is text-selectable, with no clipped text; (g) manuscript/illustration provenance is explicit; (h) no user's sermon is generated; (i) genuine sparing, verified source-anchored yellow highlights are visible throughout the PDF; (j) highlighted original words remain searchable and distinguishable from editor conclusions.
