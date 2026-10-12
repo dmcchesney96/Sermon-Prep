@@ -1,6 +1,6 @@
 # PASSAGE PREP — SELF-CONTAINED PDF ANTHOLOGY — [REFERENCE]
 
-DOWNLOADABLE PDF | [DATE] | [TRANSLATION IF GIVEN] | [TOTAL PAGE COUNT] pages | [FULL HISTORIC TEXTS EMBEDDED] | [MODERN ANALYSES]
+DOWNLOADABLE PDF | [DATE] | [TRANSLATION IF GIVEN] | [TOTAL PAGE COUNT] pages | [FULL HISTORIC TEXTS EMBEDDED] | [MODERN ANALYSES] | [ORIGINAL SOURCE HIGHLIGHTS CHECKED]
 
 A self-contained source library for reading and sermon-communication study. Embed full relevant public-domain/licensed original text instead of directing readers to websites; for modern copyrighted work include detailed original analysis and limited allowable quotes. Original material and editorial notes must be visibly distinct. **Do your own study and mark up the texts.**
 
@@ -32,7 +32,9 @@ Also include a functional ‘Contents’ link on long-document pages and actual 
 ### Full original author text (where public domain/licensed)
 [Embed the COMPLETE relevant public-domain/licensed original chapter/exposition directly here, with faithful internal subheadings. Historical provenance and edition/reuse license must be established. If the source is modern copyrighted and not licensed for reproduction, label NO FULL TEXT RIGHTS and provide a source-grounded analytical reading and short lawful quote only. Never silently omit the primary text when public domain and obtainable.]
 
-**Highlight in source:** [1–4 particularly useful VERBATIM spans, marked in the actual embedded text where permitted. Do not invent quotes.]
+**REQUIRED PDF IN-TEXT HIGHLIGHTS:** [After reading this complete source, choose ~1–3 exact spans for short items or ~3–8 for long source units that illuminate an interpretation, original biblical wording, a theological contrast, pastoral sensitivity, or useful illustration. Add native soft-yellow highlight annotations directly ON the original source words in the final PDF. Highlighting this instruction instead of the actual text is a FAIL.]
+
+**Optional EDITOR — Why I selected these lines:** [One brief rationale or open question, distinct from author's wording.]
 
 **Comparison to investigate:** [other reading with different conclusion / angle]
 
@@ -88,6 +90,9 @@ ____________________________________________________________________
 **Illustration B — [short name]**
 - [same fields]
 
+### Editor-selected communication highlights
+[Mark the particularly helpful lines DIRECTLY in eligible embedded historical sermon text. For modern copyrighted materials, highlight a permitted short quote or explicitly labeled original EDITOR ANALYSIS, not unlicensed transcript text.]
+
 ### Communication choices worth noticing
 - [What they did — structural, not an outline for the user]
 - [Theological or rhetorical decision]
@@ -113,6 +118,6 @@ ____________________________________________________________________
 ## Source and permissions notes
 [What was actually retrieved; what remains only a link; why verbatim copyrighted text is limited.]
 
-**PDF FINALIZATION CHECK:** [ ] searchable/selectable [ ] 2-part structure [ ] full eligible historical text [ ] source attribution [ ] rights status clear [ ] clickable TOC [ ] sidebar bookmarks [ ] functioning destinations [ ] pages numbered [ ] no clipped content [ ] downloadable actual PDF.
+**PDF FINALIZATION CHECK:** [ ] searchable/selectable [ ] 2-part structure [ ] full eligible historical text [ ] source attribution [ ] rights status clear [ ] clickable TOC [ ] sidebar bookmarks [ ] functioning destinations [ ] actual highlighted original words inside PDF [ ] highlights checked in multiple source sections [ ] selection restrained [ ] pages numbered [ ] no clipped content [ ] downloadable actual PDF.
 
 **End of reader. The preacher chooses the final interpretation, illustrations, message, and application.**
