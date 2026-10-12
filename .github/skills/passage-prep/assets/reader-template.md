@@ -1,8 +1,8 @@
-# PASSAGE PREP — [REFERENCE]
+# PASSAGE PREP — SELF-CONTAINED PDF ANTHOLOGY — [REFERENCE]
 
-Study reader · [DATE] · [TRANSLATION IF GIVEN]
+DOWNLOADABLE PDF | [DATE] | [TRANSLATION IF GIVEN] | [TOTAL PAGE COUNT] pages | [FULL HISTORIC TEXTS EMBEDDED] | [MODERN ANALYSES]
 
-A curated reading and sermon-communication workspace. Original material and editorial notes are visibly distinct. **Do your own study and mark up the texts.**
+A self-contained source library for reading and sermon-communication study. Embed full relevant public-domain/licensed original text instead of directing readers to websites; for modern copyrighted work include detailed original analysis and limited allowable quotes. Original material and editorial notes must be visibly distinct. **Do your own study and mark up the texts.**
 
 **At a glance:** [number] commentary readings · [number] verified full sermons · [number] partial references · [unavailable sources noted]
 
@@ -11,9 +11,13 @@ A curated reading and sermon-communication workspace. Original material and edit
 - [Open question]
 - [Open question]
 
-**Navigation**
-1. COMMENTARY READING ROOM
-2. SERMON WORKSHOP
+**Navigation (REQUIRED LIVE PDF LINKS AND NATIVE BOOKMARKS)**
+1. COMMENTARY READING ROOM → [clickable internal destination]
+   - Each author/chapter title → [clickable internal destination]
+2. SERMON WORKSHOP → [clickable internal destination]
+   - Each historical sermon or modern analytical map → [clickable internal destination]
+
+Also include a functional ‘Contents’ link on long-document pages and actual page numbers. A plain list of headings with no clickable navigation is insufficient.
 
 ---
 
@@ -25,10 +29,10 @@ A curated reading and sermon-communication workspace. Original material and edit
 **Covers:** [EXACT / SURROUNDING / THEMATIC]
 **Reuse:** [verified public domain / licensed / copyrighted / unknown]
 
-### Original text (only where permissible)
-[Insert source's own words, accurately attributed and with enough context to understand the highlighted sentences, OR a short lawful quotation plus a deep link to the original.]
+### Full original author text (where public domain/licensed)
+[Embed the COMPLETE relevant public-domain/licensed original chapter/exposition directly here, with faithful internal subheadings. Historical provenance and edition/reuse license must be established. If the source is modern copyrighted and not licensed for reproduction, label NO FULL TEXT RIGHTS and provide a source-grounded analytical reading and short lawful quote only. Never silently omit the primary text when public domain and obtainable.]
 
-**Highlight in source:** [1–4 particularly useful verbatim spans, marked on source text itself. Do not invent quotes.]
+**Highlight in source:** [1–4 particularly useful VERBATIM spans, marked in the actual embedded text where permitted. Do not invent quotes.]
 
 **Comparison to investigate:** [other reading with different conclusion / angle]
 
@@ -60,6 +64,7 @@ ____________________________________________________________________
 **When/where:** [verified date and setting]
 **Original:** [link to manuscript or audio/video]
 **Verification:** [full transcript read / relevant excerpt read / audio listened / metadata only]
+**Embedded source status:** [complete public-domain/authorized original | substantial lawfully reusable selection | analysis only—copyrighted modern text]
 
 **Communication movement:** [one sentence describing how they move from beginning to end]
 
@@ -107,5 +112,7 @@ ____________________________________________________________________
 
 ## Source and permissions notes
 [What was actually retrieved; what remains only a link; why verbatim copyrighted text is limited.]
+
+**PDF FINALIZATION CHECK:** [ ] searchable/selectable [ ] 2-part structure [ ] full eligible historical text [ ] source attribution [ ] rights status clear [ ] clickable TOC [ ] sidebar bookmarks [ ] functioning destinations [ ] pages numbered [ ] no clipped content [ ] downloadable actual PDF.
 
 **End of reader. The preacher chooses the final interpretation, illustrations, message, and application.**
