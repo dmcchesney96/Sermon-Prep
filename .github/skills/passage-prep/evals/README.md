@@ -27,7 +27,16 @@ Purpose: ensure this skill curates sources and exposes genuine sermon craft, wit
 - **Commentary:** citations verified; original wording only when reuse permissible; diverse arguments not crushed into a single assistant view.
 - **Sermon:** true chronology, memorable specific examples, no invented illustrations, exact text coverage labeled.
 - **Agency:** enough original material to read and annotate; no assistant-produced final sermon thesis/points in place of user.
-- **Rendering:** two clearly separated parts, working links, actual highlighted phrases, generous annotation space.
+- **Rendering:** two clearly separated parts, working links, **actual soft-yellow highlighted source wording on original reading pages**, generous annotation space. A highlighted summary is not enough.
+
+## Mandatory highlight quality test — v0.4
+
+1. Select genuine helpful original passages only *after* reading the original historical chapter or sermon. Verify exact selected wording, author's attribution and chapter position.
+2. Prioritize thoughtfully: roughly 1–3 highlights for short pieces, 3–8 for a substantial chapter when warranted. Avoid automatic page quotas, marking whole paragraphs or highlighting more than about 10% of the source.
+3. Examine PDF beginning, middle, and end for in-place source-text highlights, correct positioning, legibility and searchable/selectable underlying words.
+4. Use native PDF highlight annotations when possible; otherwise document a visually tested behind-text yellow fallback.
+5. If a brief 'Study trail' is created, confirm it links directly to highlighted source passages.
+6. Fail if only a separate quote list, editorial note, or TOC is highlighted while the authorial body text remains unmarked.
 
 ## Tested versus planned
 
