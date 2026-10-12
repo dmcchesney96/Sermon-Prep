@@ -17,7 +17,7 @@ A source entry should occupy a logical reading unit:
 - "Compare with": links to other source entries when they disagree or emphasize different aspects.
 - "My observations / return to Scripture": 5+ blank lines or editable prompt area.
 
-Preferred mix: 4–8 distinct relevant commentaries. Mark only the very strongest 1–4 passages per author; preserve their surrounding context so highlights remain intelligible.
+Preferred mix: 4–8 distinct relevant commentaries. Select ~1–3 short spans from a short item and ~3–8 from a substantial historical chapter/sermon, as warranted. **Actually highlight the precise original words in their original location in the PDF**; keep most text unmarked and context intact.
 
 **Shared mini-index:** interpretive distinctions **to investigate**, referring to authors, with no forced conclusion. Keep under half a page.
 
@@ -48,7 +48,11 @@ Each selected full sermon gets a source card and a flow map:
 - **Downloadable PDF is mandatory by default** with a correct linked table of contents and native PDF sidebar bookmarks. A Google Doc can be an optional editable source but does not replace the delivered PDF.
 - Keep body text at comfortable tablet size (approximately 11–12 pt), line spacing 1.3–1.5, ample white space.
 - Use consistent named heading levels and native PDF bookmarks. Start passage/major parts on separate pages when possible. Ensure internal TOC links target the correct source heading rather than a prior mention of its title.
-- Yellow highlight is for authentic source wording or especially valuable identified structural moves. Never highlight full pages.
+- **Highlighting is mandatory and must be in the original reading pages.** After reading the whole source, use pale-yellow native PDF highlight annotations to mark the most helpful verifiable original spans on textual insight, theological tension, gospel connections, pastoral nuance, or useful communication techniques. A yellow marker on a source title or editor note alone fails. If native highlights cannot be reliably added, use readable yellow text-background shading and document the fallback.
+- Restrict density (roughly 1–3 small spans in a short work or 3–8 in a long source, rarely >10% of original wording); highlight original author text rather than a paraphrase pretending to be an original quotation.
+- For copyrighted modern sermon research, only mark lawful very brief quotes or clearly identified original EDITOR ANALYSIS. Do not copy more original material just to highlight.
+- Optionally add 8–15 items in a “Study trail / Highlights worth examining” near the contents, with verified internal links to the highlighted source lines. Never substitute that index for physical marks in the body.
+- Visually inspect beginning, middle, and end of exported PDF for correct alignment, readability and searchable/selectable text beneath highlights.
 - Visually label SOURCE TEXT, EDITOR NOTE, and READING QUESTION (don't merge them).
 - Make all source-reference links clickable as supporting citations, but embed primary text when reuse is lawful. Give each author/book/sermon its own discrete block. Only add timestamp deep links when that exact recording position was checked; never guess seconds from transcripts that are not time-aligned.
 - Note "complete original accessible by link" when a source cannot be reproduced.
@@ -62,7 +66,7 @@ Each selected full sermon gets a source card and a flow map:
 3. Facts, quotes, narratives, and sermon movement claims supported by verified originals.
 4. Unique illustrations and examples are concrete and attributable; no invented scenes.
 5. Editorial analysis serves navigation and communication craft, not replacement of personal study.
-6. PDF includes actual downloadable file, selectable/searchable text, clickable TOC, native sidebar outline/bookmarks, checked destination pages, visible highlights, page numbers and room for annotations.
+6. PDF includes actual downloadable file, selectable/searchable text, clickable TOC, native sidebar outline/bookmarks, checked destination pages, **actual visually verified yellow highlights on original source passages** (or documented visible fallback), page numbers and room for annotations.
 
 ## Explicit failure cases to avoid
 - A short Google Doc giving mainly hyperlinks for reading → FAIL.
