@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "goal": "Evaluate Part 1 commentary excerpts and Part 2 actual sermon maps as a source-first, mark-up-friendly workflow",
+  "version": "0.4.0",
+  "goal": "Evaluate passage-first, self-contained PDF anthologies with source-provenance, verified in-text editorial highlights, and genuine sermon-communication analysis",
   "cases": [
     {
       "id": "mt5-4-verified",
@@ -132,6 +132,21 @@
         "Gospel in Life uses official Scripture filtering",
         "Timestamps included only when independently verified in exact recording",
         "Reader can still be completed with links when full transcripts are inaccessible"
+      ]
+    },
+    {
+      "id": "highlighted-original-text-long-pdf",
+      "prompt": "Run Passage Prep on Matthew 5:4 with complete relevant public-domain Watson and Henry commentary plus manuscript-grounded John Piper analysis. Deliver a navigable substantial PDF and HIGHLIGHT the best in-text source lines for me to study, not just a list of references.",
+      "expected": "Navigable PDF with full eligible historic texts and genuine exact-phrase soft-yellow highlighting in the source body, modern copyrighted sources analyzed within permission limits, and no sermon ghostwriting",
+      "assertions": [
+        "Highlight annotations or visually checked yellow shading land on the original source wording itself in at least two distinct public-domain reading sections",
+        "Selections are verbatim faithful to source and appear within relevant passages, not fabricated paraphrase or only a separate highlight index",
+        "Highlight reasons favor textual, interpretive, theological, pastoral or communicative value rather than marking everything",
+        "Highlight density stays selective, roughly less than 10% of long original texts",
+        "PDF rendering and text selectability are verified for highlighted portions from beginning, middle and end",
+        "Any highlight/study trail links point to the actual source locations",
+        "Full modern copyrighted sermon transcript is not illegally reproduced simply to create highlights",
+        "No imposed AI-written final sermon"
       ]
     }
   ]
